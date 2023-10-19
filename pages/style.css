@@ -1,8 +1,7 @@
-
 @font-face {
     font-family: 'gothicpixelsmedium';
-    src: url('https://paragorika.github.io/paragorika/index.woff2') format('woff2'),
-         url('https://paragorika.github.io/paragorika/index.woff') format('woff');
+    src: url('gothicpixels-webfont.woff2') format('woff2'),
+         url('gothicpixels-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
