@@ -1,6 +1,6 @@
 @font-face {
     font-family: NeueHaas;
-    src: url(fonts/NeueHaasDisplay-RomanItalic.ttf);
+    src: url(fonts/NeueHaasDisplay-Roman.ttf);
 }
 @font-face {
     font-family: NeueItalic;
@@ -9,6 +9,6 @@
 
 body {
     font-family: NeueHaas, sans-serif;
-    font-size: 36em;
+    font-size: 6em;
 }
 
