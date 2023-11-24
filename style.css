@@ -8,12 +8,10 @@
     src: url(fonts/NeueHaasDisplay-RomanItalic.ttf);
 }
 
-body {
-    font-family: NeueHaas, sans-serif;
-    font-size: 3em;
-}
 
 section.dynamic {
+    font-family: NeueHaas, sans-serif;
+    font-size: 3em;
     display: block;
 
 }
