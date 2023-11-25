@@ -1,4 +1,5 @@
 @import url(header.css);
+@import url(reset.css);
 @font-face {
     font-family: NeueHaas;
     src: url(fonts/NeueHaasDisplay-Roman.ttf);
