@@ -19,5 +19,7 @@ section.dynamic {
 }
 
 section.dynamic div.greeting {
-  width: 40%;  
+    position: relative;
+    top: 250px;
+  width: 100%;  
 }
