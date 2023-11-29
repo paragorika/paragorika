@@ -9,6 +9,39 @@
     src: url(fonts/NeueHaasDisplay-RomanItalic.ttf);
 }
 
+body {
+    background-color: #04402F;
+}
+
+.arrow {
+    --angle: 10deg;
+    
+    position:absolute;
+    top: -100px;
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.arrow > div {
+    flex: 1;
+    align-self: stretch;
+    background-image: linear-gradient(
+        white,
+        #04402F00);
+}
+
+.arrow > .left {
+    transform: skewY(calc(var(--angle)* -1));
+    transform-origin: top right;
+}
+
+.arrow > .right {
+    transform: skewY(var(--angle));
+    transform-origin: top left;
+}
 
 section.dynamic {
     font-family: NeueHaas, sans-serif;
@@ -23,3 +56,7 @@ section.dynamic div.greeting {
     top: 250px;
   width: 100%;  
 }
+
+.four-pointed-star{
+   
+  
