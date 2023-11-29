@@ -5,6 +5,7 @@ main.onclick = (event) => {
     console.log(event.clientY)
 
     const clone = starSource.cloneNode(true)
+    const y = Math.random
     clone.style.left = `${event.clientY}px`
     main.append(clone)
 }
