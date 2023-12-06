@@ -19,16 +19,6 @@ body {
     position: relative;
 }
 
-a:link{
-    color: white;
-}
-a:hover{
-    color: aquamarine;
-}
-a:visited{
-    color: white;
-}
-
 section.dynamic {
     font-family: NeueHaas, sans-serif;
     font-size: 3em;

@@ -1,4 +1,6 @@
 header {
+    position:absolute;
+    top: 20px;
     font-family: NeueHaas, sans-serif;
     font-size: 2em;
     position: fixed;
@@ -28,4 +30,14 @@ header .menu {
     justify-content: right;
     text-align: center;
     font-family: NeueItalic, sans-serif;
+}
+
+a:link{
+    color: black;
+}
+a:hover{
+    color: aquamarine;
+}
+a:visited{
+    color: black;
 }
