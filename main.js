@@ -1,4 +1,4 @@
-import { lerpFFFFFF, randFFFFFF } from '../paragorika/common_resources/color-utils'
+import { lerpFFFFFF, randFFFFFF } from '../paragorika/common_resources/color-utils.js'
 
 const main = document.querySelector('main')
 const arrowUpSource = document.querySelector('.arrow.up')
