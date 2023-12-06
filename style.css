@@ -10,37 +10,17 @@
 }
 
 body {
-    background-color: #04402F;
+    background-color: #00251A;
 }
 
-.arrow {
-    --angle: 10deg;
-    
-    position:absolute;
-    top: -220px;
-    width: 100%;
-    height: 60%;
-
-    display: flex;
-    flex-direction: row;
+a:link{
+    color: white;
 }
-
-.arrow > div {
-    flex: 1;
-    align-self: stretch;
-    background-image: linear-gradient(
-        white,
-        #04402F00);
+a:hover{
+    color: aquamarine;
 }
-
-.arrow > .left {
-    transform: skewY(calc(var(--angle)* -1));
-    transform-origin: top right;
-}
-
-.arrow > .right {
-    transform: skewY(var(--angle));
-    transform-origin: top left;
+a:visited{
+    color: white;
 }
 
 section.dynamic {
@@ -55,6 +35,13 @@ section.dynamic div.greeting {
     position: relative;
     top: 250px;
   width: 100%;  
+}
+
+
+section.dynamic div.parentalice {
+    position: absolute;
+    left: 950px;
+    top: 500px;
 }
 
 section.dynamic div.four-pointed-star{
