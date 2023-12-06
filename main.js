@@ -1,8 +1,8 @@
-import { lerpFFFFFF, randFFFFFF } from '../paragorika/common_resources/color-utils.js'
+import { lerpFFFFFF, randFFFFFF } from './common_resources/color-utils.js'
 
-const main = document.querySelector('main')
-const arrowUpSource = document.querySelector('.arrow.up')
-const arrowDownSource = document.querySelector('.arrow.down')
+const container = document.querySelector('.art-bg')
+const arrowUpSource = container.querySelector('.arrow.up')
+const arrowDownSource = container.querySelector('.arrow.down')
 
 // Les "sources" ne sont plus nécessaires, on peut les retirer de l'écran:
 arrowUpSource.remove()
@@ -26,7 +26,7 @@ const randomLerpColor = () => {
 function addArrowUp(y) {
   const clone = arrowUpSource.cloneNode(true)
   clone.style.top = `${100 - y}%`
-  main.append(clone)
+  container.append(clone)
 
   // random gradient color
   const color = randomLerpColor()
@@ -38,7 +38,7 @@ function addArrowUp(y) {
 function addArrowDown(y) {
   const clone = arrowDownSource.cloneNode(true)
   clone.style.bottom = `${100 - y}%`
-  main.append(clone)
+  container.append(clone)
 
   // random gradient color
   const color = randomLerpColor()
