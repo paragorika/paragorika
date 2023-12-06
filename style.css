@@ -39,8 +39,9 @@ section.dynamic {
 
 section.dynamic div.parentalice {
     position: absolute;
-    left: 950px;
-    top: 500px;
+    left: 50%;
+    top: 30%;
+    margin: -270px;
 }
 section.dynamic div.four-pointed-star{
     content: url(assets/4_Point_Star.png);
