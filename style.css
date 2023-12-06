@@ -95,19 +95,11 @@ section.dynamic {
 
 }
 
-section.dynamic div.greeting {
-    position: relative;
-    top: 250px;
-  width: 100%;  
-}
-
-
 section.dynamic div.parentalice {
     position: absolute;
     left: 950px;
     top: 500px;
 }
-
 section.dynamic div.four-pointed-star{
     content: url(assets/4_Point_Star.png);
     width: 50px;
